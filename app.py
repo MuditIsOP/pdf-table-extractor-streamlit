@@ -33,13 +33,7 @@ if st.button("Start") and uploaded_files:  # ← Add button logic for control
                         # Clean dashes and newlines in specific columns
                         if df.shape[1] > 8:  # ← safeguard
                             for col in [df.columns[6], df.columns[8]]:
-                                df[col] = (
-                                    df[col]
-                                    .astype(str)
-                                    .str.replace(r'[—–\-]+', '\n', regex=True)  # ← Replaced dash with newline
-                                    .str.replace(r'\n+', '\n', regex=True)
-                                    .str.strip()
-                                )
+                                        df[col] = (df[col].astype(str).str.replace(r'\n+', ' ', regex=True).str.replace(r'[—–\-]+', '\n', regex=True).str.replace('ENGINEERIN G','ENGINEERING').str.strip())
                     dfs.append(df)
 
     # ⬇️ Combine all extracted tables
