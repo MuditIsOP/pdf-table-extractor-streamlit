@@ -13,6 +13,15 @@
 
 ---
 
+## 🔗 Use Online
+
+Use the app instantly without any installation here:  
+👉 [https://pdf-table-extractor-app.streamlit.app/](https://pdf-table-extractor-app.streamlit.app/)
+
+Just upload your PDF files, click **Start**, and download the merged Excel file in one click.
+
+---
+
 ## 🚀 Key Features
 
 - 📥 **Multi-PDF Upload:** Upload multiple `.pdf` documents simultaneously.
