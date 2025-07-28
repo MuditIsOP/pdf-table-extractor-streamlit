@@ -49,7 +49,7 @@ Perfect for automating PDF-to-Excel conversions where tables are spread across m
 ## 👤 Author
 
 **Mudit Sharma** – B.Tech AI Student 💡  
-[LinkedIn: ](https://www.linkedin.com/in/muditsharma-)  
+[LinkedIn: Mudit Sharma](https://www.linkedin.com/in/muditsharma-)  
 Feel free to fork, contribute or suggest features!
 
 ---
